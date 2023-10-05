@@ -1,0 +1,14 @@
+@import './color.scss';
+
+.chapter{
+  height: 97px;
+  background-color: $color-background;
+  display: flex;
+  align-items: center;
+  padding-left: 27px;
+  padding-right: 27px;
+  &__text{
+    font-size: 32px;
+    font-weight: 700;
+  }
+}

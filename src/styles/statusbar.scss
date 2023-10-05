@@ -1,0 +1,30 @@
+@import 'color.scss';
+
+.statusbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 44px;
+  background-color: $color-background;
+
+  &__time{
+    left: 0;
+  }
+  &__indicators{
+    width: 66.66px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.time{
+  font-size: 14px;
+  color: $color-text;
+}
+.indicators{
+  font-size: 12px;
+  img{
+    fill: $color-text;
+  }
+}

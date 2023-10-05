@@ -1,0 +1,31 @@
+@import 'color.scss';
+@import 'animation.scss';
+
+.points{
+  font-size: 18px;
+  &__point{
+    // animation: shaker 2s;
+    height: 56px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    // transition: all 0.3s linear 0s ;
+    &>div::before{
+      content: url('../icons/checkbox-task-undone.svg');
+      margin-right: 16px;
+    }
+    &_done{
+      text-decoration: line-through;
+      color: $color-text-linethrow;
+      &>div::before{
+        content: url('../icons/checkbox-task-done.svg');
+      }
+    }
+    width: fit-content;
+    &:not(.points__point_done):hover{
+      // transform: scale(1.5);
+      animation: shaker 0.15s 2;
+    }
+  }
+}
+

@@ -1,0 +1,20 @@
+@import 'color.scss';
+
+html{
+  background-color: #a8a8a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+  height: 100vh;
+}
+
+body{
+  position: relative;
+  font-family:'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 375px;
+  height: 810px;
+  border: 3px solid #000;
+  display: block;
+  background-color: $color-background;
+}

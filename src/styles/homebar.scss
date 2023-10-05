@@ -1,0 +1,14 @@
+@import 'color.scss';
+
+.app__homebar{
+  position: absolute;
+  bottom: 6px;
+  margin: auto;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%);
+}
+.homebar{
+  width: 134px;
+  border-bottom: 5px solid $color-text;
+}

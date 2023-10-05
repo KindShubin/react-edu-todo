@@ -1,0 +1,8 @@
+@import 'color.scss';
+
+.tasks{
+  background-color: $color-background;
+  display: flex;
+  flex-direction: column;
+  // height: 570px;
+}
